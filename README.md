@@ -24,3 +24,5 @@ Docker works in this Vagrant VM.
 The first startup takes a while as it's downloading the Vagrant image (maybe), Puppet, Docker etc.
 
 If some part of the provisioning fails (might happen due to network issues sometimes) you can rerun `vagrant provision`, which is also useful if you make changes to the Puppet manifest.
+
+Maybe redundant?
