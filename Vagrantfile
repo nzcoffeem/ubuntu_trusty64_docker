@@ -2,6 +2,7 @@
 # vi: set ft=ruby :
 
 Vagrant.configure(2) do |config|
+  # Using the ubuntu trusty base box.
   config.vm.box = "chad-thompson/ubuntu-trusty64-gui"
   config.vm.network "forwarded_port", guest: 7990, host: 7990
   config.vm.provider "virtualbox" do |vb|
